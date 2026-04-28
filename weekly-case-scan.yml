@@ -1,0 +1,44 @@
+name: Weekly case scan
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml anthropic
+
+      - name: Run scanner
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/scan_cases.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "nyc-assault-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet cases-2026.json; then
+            echo "No new cases — nothing to commit."
+          else
+            added=$(git diff cases-2026.json | grep -c '^\+\s*{' || true)
+            git add cases-2026.json
+            git commit -m "Weekly scan: add $added case(s)"
+            git push
+          fi

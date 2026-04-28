@@ -1,0 +1,480 @@
+{
+  "year": 2026,
+  "last_updated": "2026-04-27",
+  "note": "Compiled from NYC District Attorney press releases (Manhattan, Brooklyn, Bronx, Queens, Staten Island), federal prosecutor announcements, and reporting in NY Post, Daily News, NY Times, Gothamist, ABC7, NBC4, CBS2, Patch, and amNY. Entries are de-duplicated where a single defendant appears in multiple reports; the same defendant may appear on multiple dates when separate events (arrest, indictment, conviction) are reported. A small number of entries point to a DA press-release index rather than a case-specific permalink because the DA website's indexed permalinks could not be confirmed at compile time; readers can verify via the DA's dated press-release archive.",
+  "cases": [
+    {
+      "n": 1,
+      "name": "Anton Aleshin",
+      "date": "2026-01-01",
+      "borough": "Bronx",
+      "summary": "Anton Aleshin, a 29-year-old Brooklyn resident, was indicted for allegedly shoving a 72-year-old man into an oncoming No. 4 subway train at the 161st Street-Yankee Stadium station in the Bronx on New Year's Day 2026. The victim was rendered unconscious and suffered serious injuries including bleeding on the brain. Aleshin was charged with Attempted Murder in the second degree, first-degree Assault, and second-degree Assault.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/8-2026-Anton-Aleshin-indicted-subway-attempted-murder.pdf"
+    },
+    {
+      "n": 2,
+      "name": "Kerri Aherne",
+      "date": "2026-01-02",
+      "borough": "Manhattan",
+      "summary": "Indicted on attempted murder charges for stabbing a California tourist in the back and arm inside a seventh-floor Macy's Herald Square bathroom on December 11, 2025, as the victim changed her 10-month-old baby's diaper. Aherne had been discharged from Manhattan Psychiatric Center that morning after more than a year as an inpatient.",
+      "source_url": "https://manhattanda.org/d-a-bragg-woman-indicted-for-stabbing-tourist-inside-macys-bathroom-in-holiday-season-attack/"
+    },
+    {
+      "n": 3,
+      "name": "Defendant (Brownsville fatal shooting)",
+      "date": "2026-01-06",
+      "borough": "Brooklyn",
+      "summary": "Sentenced to 23 years to life in prison for the fatal daylight shooting of a former friend in Brownsville. The defendant had tracked the victim down on a Brownsville sidewalk before opening fire.",
+      "source_url": "https://www.brooklynda.org/2026/01/06/defendant-sentenced-to-23-years-to-life-in-prison-for-fatal-shooting-of-former-friend-in-brownsville/"
+    },
+    {
+      "n": 4,
+      "name": "Justin Aguilera",
+      "date": "2026-01-08",
+      "borough": "Queens",
+      "summary": "Indicted on first-degree gang assault, first-degree assault, and riot charges for allegedly kicking and stomping a Malba homeowner who tried to disperse an illegal November 2025 car meetup, and punching the man's wife in the face. Faces up to 25 years in prison if convicted.",
+      "source_url": "https://queensda.org/far-rockaway-man-indicted-on-charges-of-gang-assault-and-riot-for-beating-malba-homeowner-at-violent-car-meetup-faces-up-to-25-years-if-convicted/"
+    },
+    {
+      "n": 5,
+      "name": "Antonio Jackson",
+      "date": "2026-01-09",
+      "borough": "Bronx",
+      "summary": "Antonio Jackson, 31, was indicted on second-degree murder and related charges for allegedly fatally stabbing Aaron Carpenter, 34, multiple times with a kitchen knife after an argument at Jackson's apartment building in the Bronx. The victim collapsed on the street and was pronounced dead at St. Barnabas Hospital.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/25-2026-Antonio-Jackson-indicted-in-fatal-stabbing.pdf"
+    },
+    {
+      "n": 6,
+      "name": "Vladislav Deshkovich",
+      "date": "2026-01-09",
+      "borough": "Brooklyn",
+      "summary": "Arraigned on murder charges for allegedly stabbing his mother to death inside their Sheepshead Bay apartment. Prosecutors said the attack followed a dispute over finances.",
+      "source_url": "https://www.brooklynda.org/press-releases/"
+    },
+    {
+      "n": 7,
+      "name": "Antonio Jackson",
+      "date": "2026-01-10",
+      "borough": "Bronx",
+      "summary": "Arrested and charged with murder, manslaughter and criminal possession of a weapon for fatally stabbing 34-year-old Aaron Carpenter in front of a Crotona Park East apartment building following an argument. It was the first homicide of 2026 in the 42nd Precinct.",
+      "source_url": "https://bronx.news12.com/bronx-man-indicted-on-murder-charge-accused-of-stabbing-man-in-crotona-park-east"
+    },
+    {
+      "n": 8,
+      "name": "Feliz Enrique",
+      "date": "2026-01-14",
+      "borough": "Queens",
+      "summary": "Pleaded guilty to first-, second- and third-degree assault and other charges for striking a 9-year-old girl in the face on a Glendale street and biting off the top segment of an off-duty NYPD sergeant's right index finger when the officer tried to apprehend him. Expected to be sentenced to 17 years in prison.",
+      "source_url": "https://queensda.org/glendale-resident-pleads-guilty-to-assault-for-attack-on-9-year-old-girl-and-off-duty-police-sergeant/"
+    },
+    {
+      "n": 9,
+      "name": "Lissette Soto Domenech",
+      "date": "2026-01-20",
+      "borough": "Bronx",
+      "summary": "Lissette Soto Domenech, 64, was indicted on first-degree assault and other charges for systematically starving her 14-year-old twin sons and isolating them in her home for nine years. The boys, weighing under 55 pounds and deprived of medical care, education, and normal social interaction, were rescued in October 2025 and hospitalized for three months.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/6-2026-Lissette-Soto-Domenech-indicted-starving-twin-sons.pdf"
+    },
+    {
+      "n": 10,
+      "name": "Mushin Morshed",
+      "date": "2026-01-20",
+      "borough": "Bronx",
+      "summary": "Mushin Morshed, 65, was sentenced to four years in prison for third-degree Criminal Sexual Act and second-degree Sexual Abuse. He sexually assaulted a 13-year-old girl starting on her birthday in 2017 and continued abusing her repeatedly over years.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/7-2026-Mushin-Morshed-sentenced-rape.pdf"
+    },
+    {
+      "n": 11,
+      "name": "Thomas Johnson",
+      "date": "2026-01-20",
+      "borough": "Brooklyn",
+      "summary": "Convicted at trial of attempted murder and assault for shooting a man in the back on a Crown Heights street in 2023 during an ongoing dispute. The victim survived but sustained permanent injuries.",
+      "source_url": "https://www.brooklynda.org/press-releases/"
+    },
+    {
+      "n": 12,
+      "name": "Frederick Green",
+      "date": "2026-01-21",
+      "borough": "Manhattan",
+      "summary": "Indicted on attempted murder and first-degree assault charges for firing two shots outside a Midtown restaurant during a physical altercation in 2025, wounding former NFL cornerback Kris Boyd. Green tried to jump out a Buffalo apartment window when federal and state officers closed in on December 8, 2025.",
+      "source_url": "https://manhattanda.org/d-a-bragg-announces-indictment-in-shooting-outside-of-midtown-restaurant/"
+    },
+    {
+      "n": 13,
+      "name": "Kashawn Croswell",
+      "date": "2026-01-22",
+      "borough": "Brooklyn",
+      "summary": "Convicted at trial of attempted murder and assault for shooting at a man in East Flatbush, wounding a bystander. Prosecutors used surveillance video and recovered shell casings to identify him as the gunman.",
+      "source_url": "https://www.brooklynda.org/press-releases/"
+    },
+    {
+      "n": 14,
+      "name": "Kevin Morgan",
+      "date": "2026-01-23",
+      "borough": "Brooklyn",
+      "summary": "Arraigned on second-degree attempted murder, second-degree assault, first-degree attempted assault and first-degree reckless endangerment charges for allegedly intentionally striking a woman with his car in Brooklyn.",
+      "source_url": "https://www.brooklynda.org/2026/01/23/brooklyn-man-arraigned-on-attempted-murder-and-other-charges-for-allegedly-striking-woman-intentionally-with-his-car/"
+    },
+    {
+      "n": 15,
+      "name": "Jabez Chakraborty",
+      "date": "2026-01-30",
+      "borough": "Queens",
+      "summary": "Indicted on first-degree attempted assault and criminal weapon possession charges after allegedly grabbing a large kitchen knife and advancing on NYPD officers who had responded to a 911 call at his Briarwood family home on January 26. An officer discharged his weapon after instructing Chakraborty to drop the knife at least eight times.",
+      "source_url": "https://queensda.org/briarwood-man-indicted-by-grand-jury-for-attempted-assault-on-nypd-officer/"
+    },
+    {
+      "n": 16,
+      "name": "Germaine Parham",
+      "date": "2026-02-05",
+      "borough": "Manhattan",
+      "summary": "Indicted on six counts of predatory sexual assault and six counts of first-degree rape for allegedly grabbing a 14-year-old girl in a Stuyvesant Town lobby on January 28, dragging her into a stairwell, striking her head against a railing, and raping her at knifepoint. Parham, who had 32 prior arrests, was captured on February 3.",
+      "source_url": "https://manhattanda.org/d-a-bragg-announces-indictment-in-stuytown-rape-of-14-year-old-girl/"
+    },
+    {
+      "n": 17,
+      "name": "Alejandro Piedra",
+      "date": "2026-02-06",
+      "borough": "Manhattan",
+      "summary": "Pleaded guilty to second-degree murder, attempted murder and second-degree assault for a June 2024 East Village stabbing spree in which he killed 38-year-old street vendor Clemson Cockfield and wounded Cockfield's wife and an acquaintance near East 14th Street and 1st Avenue. Expected to be sentenced to 18 years to life on April 20, 2026.",
+      "source_url": "https://manhattanda.org/d-a-bragg-announces-guilty-plea-of-man-for-stabbing-three-killing-one-in-east-village/"
+    },
+    {
+      "n": 18,
+      "name": "Manuel Nunez",
+      "date": "2026-02-09",
+      "borough": "Bronx",
+      "summary": "Manuel Nunez, 31, was sentenced to 9 years in prison for shooting two men inside an afterhours club in the Bronx on August 20, 2023. After a dispute, Nunez fired a semi-automatic pistol at close range, wounding one victim and grazing a security guard. He was convicted of attempted assault in the first degree, third-degree assault, and criminal possession of a weapon.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/15-2026-Manuel Nunez-Shooting-sentencing.pdf"
+    },
+    {
+      "n": 19,
+      "name": "Defendant (Fort Greene baby-shower shooting)",
+      "date": "2026-02-10",
+      "borough": "Brooklyn",
+      "summary": "Sentenced to 25 years to life in prison for the fatal shooting of a man outside a baby shower at a Fort Greene church in 2023. Prosecutors said the defendant opened fire into the crowd after an earlier dispute.",
+      "source_url": "https://www.brooklynda.org/2026/02/10/fort-greene-man-sentenced-to-25-years-to-life-in-prison-for-fatal-shooting-outside-baby-shower-at-brooklyn-church/"
+    },
+    {
+      "n": 20,
+      "name": "Quran McPhatter",
+      "date": "2026-02-10",
+      "borough": "Brooklyn",
+      "summary": "A 72nd Precinct NYPD officer indicted on a 13-count indictment charging third-degree assault, official misconduct, attempted assault, attempted coercion and menacing for two on-duty incidents involving civilians, including allegedly assaulting a person in custody and threatening a bystander who witnessed his patrol car driving unsafely through a crowded Sunset Park area.",
+      "source_url": "https://www.brooklynda.org/2026/02/10/police-officer-indicted-for-assault-menacing-and-official-misconduct-stemming-from-two-on-duty-incidents-involving-civilians/"
+    },
+    {
+      "n": 21,
+      "name": "Anthony Caballero, 19; Shawn Caballero, 17; Zion Martinez, 19",
+      "date": "2026-02-11",
+      "borough": "Bronx",
+      "summary": "Three youths were indicted for murder and assault in the fatal shooting of 16-year-old Christopher Redding and wounding of two other teenagers on a Kingsbridge street near Broadway and West 238th Street. The defendants discharged a firearm during the incident on February 11, 2026, striking Redding fatally and wounding a 13-year-old girl and 15-year-old boy in the legs.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/31-2026-Shawn-Caballero-Anthony-Caballero-Zion-Martinez-indicted-murder.pdf"
+    },
+    {
+      "n": 22,
+      "name": "Devonte Brown",
+      "date": "2026-02-11",
+      "borough": "Brooklyn",
+      "summary": "Arraigned on an indictment charging him with sexually abusing young girls at a Brooklyn daycare where he worked, with related assault counts tied to the physical nature of the attacks.",
+      "source_url": "https://www.brooklynda.org/2026/02/11/brooklyn-daycare-teacher-arraigned-on-indictment-charging-him-with-sexually-abusing-young-girls/"
+    },
+    {
+      "n": 23,
+      "name": "Jayvone Johnson",
+      "date": "2026-02-13",
+      "borough": "Bronx",
+      "summary": "Jayvone Johnson, 35, a girls' basketball coach at a Bronx charter school, was indicted for second-degree rape and related sexual offenses. According to prosecutors, Johnson allegedly lured a 14-year-old former player to a motel on December 23, 2024, where he raped her.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/18-former-girls-basketball-coach-indicted-rape.pdf"
+    },
+    {
+      "n": 24,
+      "name": "Ferraud Francis",
+      "date": "2026-02-17",
+      "borough": "Bronx",
+      "summary": "Ferraud Francis, 40, was sentenced to 11 years in prison for shooting a 46-year-old woman outside a bodega in Morris Heights on February 4, 2023. The defendant fired multiple shots at the woman and her spouse after witnessing an unrelated dispute inside the store, leaving the victim paralyzed from the waist down.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/19-2026-Ferraud-Francis-sentenced-attempted-murder-bodega.pdf"
+    },
+    {
+      "n": 25,
+      "name": "Argenis Baez",
+      "date": "2026-02-19",
+      "borough": "Bronx",
+      "summary": "Argenis Baez, 37, was sentenced to 24 years in prison for stabbing his estranged wife, NYPD Officer Arianna Reyes Gomez, 31, eight times in the chest, leg, and back inside her Bronx apartment on June 13, 2022. Baez entered the building after observing the victim arrive home and was captured on surveillance video exiting with a knife in his hand before turning himself in.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/20-Argenis-Baez-sentenced-in-killing-of-PO-Reyes-Gomez.pdf"
+    },
+    {
+      "n": 26,
+      "name": "Angel Silva",
+      "date": "2026-02-24",
+      "borough": "Bronx",
+      "summary": "Angel Silva, 50, was sentenced to 20 years-to-life for the second-degree murder of Jyleal Connor, 36, whom he and a co-defendant stabbed 27 times in broad daylight on August 26, 2023, near Bergen Avenue and East 149th Street in the Bronx. Silva pleaded guilty on January 14, 2026, and was sentenced on February 24, 2026.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/22-Angel-Silva-sentenced-for-murder.pdf"
+    },
+    {
+      "n": 27,
+      "name": "Samuel Calderon",
+      "date": "2026-02-25",
+      "borough": "Bronx",
+      "summary": "Samuel Calderon was indicted on second-degree murder and assault charges for allegedly entering his ex-girlfriend's apartment in the Boston Secor Houses and removing her stove to sell for crack cocaine, causing a gas leak that led to an explosion on January 24, 2026. The blast killed one resident and injured 11 others.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/21-Samuel-Calderon-indicted-for-murder.pdf"
+    },
+    {
+      "n": 28,
+      "name": "Skiboky Stora",
+      "date": "2026-02-25",
+      "borough": "Manhattan",
+      "summary": "Convicted at trial of two counts of third-degree assault as a hate crime, third-degree hate-crime stalking, aggravated harassment and attempted second-degree assault for a series of unprovoked Manhattan street attacks driven by anti-woman, anti-white and antisemitic bias, including a punch that became a viral TikTok video.",
+      "source_url": "https://manhattanda.org/nyc-man-who-randomly-punched-tiktok-influencer-convicted-for-that-assault-and-other-attacks/"
+    },
+    {
+      "n": 29,
+      "name": "Juan Rivas",
+      "date": "2026-02-28",
+      "borough": "Bronx",
+      "summary": "Arrested and charged with murder, attempted murder, manslaughter and assault for fatally stabbing his 42-year-old girlfriend Yesenia Hall in the neck, torso and back, and stabbing her 16-year-old son in the neck and back, inside a Concourse Village apartment at 956 Sherman Avenue. The teen is expected to survive.",
+      "source_url": "https://bronx.com/juan-rivas-45-arrested-for-the-murder-of-yesenia-hall-42/"
+    },
+    {
+      "n": 30,
+      "name": "Juan Rivas",
+      "date": "2026-02-28",
+      "borough": "Bronx",
+      "summary": "Juan Rivas, 45, was indicted on murder and attempted-murder charges for fatally stabbing his girlfriend Yesenia Hall, 42, inside an apartment on Sherman Avenue on February 28, 2026. Her 16-year-old son was stabbed multiple times while attempting to protect his mother, suffering injuries that required approximately one month of hospitalization.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/36-2026-Juan-Rivas-indicted-for-murder.pdf"
+    },
+    {
+      "n": 31,
+      "name": "Antonio Quinones",
+      "date": "2026-03-02",
+      "borough": "Queens",
+      "summary": "Antonio Quinones, 35, was indicted on first-degree assault charges for slashing two victims with a box cutter outside a fish market on Broadway in Astoria. He slashed a 54-year-old man's coat during a verbal dispute and cut a 29-year-old woman's face, causing a deep laceration.",
+      "source_url": "https://queensda.org/woodside-man-indicted-on-first-degree-assault-charges-for-slashing-two-victims-on-broadway-in-astoria/"
+    },
+    {
+      "n": 32,
+      "name": "Neil Hurlock",
+      "date": "2026-03-02",
+      "borough": "Brooklyn",
+      "summary": "Charged with second-degree robbery and third-degree assault as hate crimes for allegedly following a Jewish man onto a Coney Island-bound N train at the Atlantic Avenue-Barclays Center station, punching him repeatedly in the face, throwing him onto the seats while calling him a slur targeting Jews, and stealing his kippah.",
+      "source_url": "https://brooklyneagle.com/372492/police-arrest-suspect-in-anti-jewish-n-train-hate-crime/"
+    },
+    {
+      "n": 33,
+      "name": "Bairon Hernandez",
+      "date": "2026-03-08",
+      "borough": "Manhattan",
+      "summary": "On the Lexington Avenue-63rd Street F/Q platform, shoved a 30-year-old man onto the tracks, injuring his shoulder, then came behind 83-year-old veteran Richard Williams and used both hands to push him onto the tracks. Williams never regained consciousness and died March 17. Hernandez, who had been deported four times, was indicted for second-degree murder on March 30.",
+      "source_url": "https://manhattanda.org/d-a-bragg-announces-murder-indictment-in-upper-east-side-subway-shovings/"
+    },
+    {
+      "n": 34,
+      "name": "Messiah Randall, Jomar Pointdujour, Nicolson Pierrimas and Zaire Rolley",
+      "date": "2026-03-13",
+      "borough": "Queens",
+      "summary": "Four reputed members and associates of the 007 gang indicted on second-degree murder, conspiracy and criminal possession of a weapon charges for the May 2023 shooting death of 16-year-old Claudia Quatey in St. Albans. Quatey was seated in a car directly behind the intended target, a rival gang member, when she was shot in the head.",
+      "source_url": "https://queensda.org/four-reputed-gang-members-indicted-on-murder-and-conspiracy-charges-for-shooting-death-of-16-year-old-innocent-bystander/"
+    },
+    {
+      "n": 35,
+      "name": "Nassadir Tate",
+      "date": "2026-03-15",
+      "borough": "Manhattan",
+      "summary": "Charged with felony assault for an unprovoked attack on a commuter inside Penn Station, striking the victim in the head and face and causing injuries that required hospital treatment.",
+      "source_url": "https://manhattanda.org/category/news/press-release/"
+    },
+    {
+      "n": 36,
+      "name": "Christopher Nastasa",
+      "date": "2026-03-17",
+      "borough": "Brooklyn",
+      "summary": "Christopher Nastasa, 39, of Staten Island, is accused of attacking a Muslim woman at the Ninth Avenue subway station in Brooklyn, throwing her to the ground and destroying her cell phone during an unprovoked Islamophobic assault. He was indicted on charges including hate-crime robbery and assault.",
+      "source_url": "https://www.brooklynda.org/2026/04/22/staten-island-man-indicted-for-hate-crime-assault-and-robbery-targeting-muslim-victim-on-subway/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=staten-island-man-indicted-for-hate-crime-assault-and-robbery-targeting-muslim-victim-on-subway"
+    },
+    {
+      "n": 37,
+      "name": "Defendant (Bed-Stuy anonymous jury case)",
+      "date": "2026-03-17",
+      "borough": "Brooklyn",
+      "summary": "Sentenced to 25 years to life in prison for the unprovoked murder of a 42-year-old man after conviction by New York State's first anonymous jury. The court found compelling proof he had tried to interfere with jurors during his first trial, including jailhouse phone calls about paying $1,000 to influence the case.",
+      "source_url": "https://www.brooklynda.org/2026/03/17/brooklyn-man-sentenced-to-25-years-to-life-in-prison-for-fatal-daylight-shooting-following-conviction-by-states-first-anonymous-jury/"
+    },
+    {
+      "n": 38,
+      "name": "Defendant (Cypress Hills park gunman)",
+      "date": "2026-03-20",
+      "borough": "Brooklyn",
+      "summary": "Sentenced to 32 years to life in prison after firing approximately 10 shots from a .357 caliber handgun into a Cypress Hills park on a summer evening, killing 18-year-old Antonio Villa and 16-year-old Kleimer Piron with head shots and wounding a third teen.",
+      "source_url": "https://www.brooklynda.org/2026/03/20/gunman-who-fired-10-shots-into-brooklyn-park-killing-two-teens-and-injuring-a-third-sentenced-to-32-years-to-life-in-prison/"
+    },
+    {
+      "n": 39,
+      "name": "Luis Emmanuel Valencia Ponce",
+      "date": "2026-03-20",
+      "borough": "Queens",
+      "summary": "Arraigned on attempted murder, assault and weapon possession charges for the unprovoked stabbing of a 30-year-old mother of three on an East Elmhurst street. Prosecutors said the 18-year-old approached the victim from behind and stabbed her without warning.",
+      "source_url": "https://queensda.org/18-year-old-charged-with-attempted-murder-for-unprovoked-stabbing-of-30-year-old-mother-of-three-in-east-elmhurst/"
+    },
+    {
+      "n": 40,
+      "name": "Megan Horne",
+      "date": "2026-03-25",
+      "borough": "Brooklyn",
+      "summary": "Indicted on third-degree assault as a hate crime and related charges for an 11-minute anti-Muslim rampage through Bay Ridge on January 30, during which she punched and kicked a 33-year-old woman in a hijab near Fifth Avenue and 89th Street, struck a 12-year-old girl in the face, and told victims to go back to their country.",
+      "source_url": "https://www.brooklynda.org/2026/03/25/staten-island-woman-indicted-for-string-of-hate-crime-assaults-targeting-muslim-victims-in-bay-ridge/"
+    },
+    {
+      "n": 41,
+      "name": "Williejoe Delgado",
+      "date": "2026-03-25",
+      "borough": "Bronx",
+      "summary": "Arraigned on 22 charges including two counts of second-degree attempted murder, first-degree assault and four counts of second-degree assault for allegedly driving his 2007 Ford Mustang onto a sidewalk on July 3, 2025, striking six pedestrians and then fleeing the scene. A 79-year-old victim spent months in rehab and now uses a wheelchair.",
+      "source_url": "https://www.norwoodnews.org/bronx-man-charged-with-attempted-murder-for-allegedly-running-over-6-people-in-hit-run/"
+    },
+    {
+      "n": 42,
+      "name": "Joseph Martinez (AKA Jupiter Joe)",
+      "date": "2026-03-26",
+      "borough": "Bronx",
+      "summary": "Joseph Martinez was sentenced to 25 years to life in prison for the 1999 murder of 13-year-old Minerliz Soriano in the Bronx. Martinez sexually abused and killed the girl, whose body was found in a dumpster in Co-op City on February 28, 1999. The case became the first in New York City solved using familial DNA.",
+      "source_url": "https://www.bronxda.nyc.gov/downloads/pdf/pr/2026/28-2026 Joseph-Martinez-aka-Jupiter-Joe-sentenced-1999-murder.pdf"
+    },
+    {
+      "n": 43,
+      "name": "Nelson Torres",
+      "date": "2026-03-26",
+      "borough": "Queens",
+      "summary": "Indicted on first-degree murder charges for the April 14 fatal stabbing of 22-year-old bicyclist Anderson David Archila Martinez on a Corona sidewalk. Torres allegedly chased Martinez, knocked him from his bicycle and stole it, then stabbed him in the abdomen when the victim tried to recover the bike.",
+      "source_url": "https://queensda.org/corona-man-indicted-for-first-degree-murder-for-fatal-stabbing-of-bicyclist/"
+    },
+    {
+      "n": 44,
+      "name": "Jermaine Longmire",
+      "date": "2026-03-27",
+      "borough": "Manhattan",
+      "summary": "Convicted at trial of first-degree attempted rape and first-degree sexual abuse for tackling and attempting to rape a 21-year-old woman sunbathing in the Great Hill section of Central Park on June 24, 2024. Forensic evidence from the survivor's bikini linked him to the attack.",
+      "source_url": "https://manhattanda.org/d-a-bragg-announces-all-count-trial-conviction-in-central-park-attempted-rape/"
+    },
+    {
+      "n": 45,
+      "name": "Slattery gang members (six defendants)",
+      "date": "2026-03-27",
+      "borough": "Bronx",
+      "summary": "Six alleged members of the Slattery gang indicted on second-degree murder and related charges in the killing of a 14-year-old boy. Prosecutors said the defendants targeted the teen as part of ongoing gang conflict.",
+      "source_url": "https://www.bronxda.nyc.gov/html/newsroom/press-releases.shtml"
+    },
+    {
+      "n": 46,
+      "name": "Three youths (Christopher Redding murder)",
+      "date": "2026-03-27",
+      "borough": "Bronx",
+      "summary": "Three youths indicted on second-degree murder charges in the fatal shooting of 16-year-old Christopher Redding. Prosecutors said the defendants fired multiple rounds at Redding in a Bronx residential area.",
+      "source_url": "https://www.bronxda.nyc.gov/html/newsroom/press-releases.shtml"
+    },
+    {
+      "n": 47,
+      "name": "Amuri Greene, Mathew Rodriguez",
+      "date": "2026-04-01",
+      "borough": "Brooklyn",
+      "summary": "Amuri Greene, 21, and Mathew Rodriguez, 18, allegedly fired multiple gunshots into a crowd on an East Williamsburg street from a moped, killing a seven-month-old infant in a stroller and wounding her two-year-old brother. The defendants fled the scene and crashed the moped a few blocks away.",
+      "source_url": "https://www.brooklynda.org/2026/04/15/brooklyn-man-arraigned-on-murder-and-other-charges-for-shooting-that-killed-infant-wounded-toddler-brother-2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=brooklyn-man-arraigned-on-murder-and-other-charges-for-shooting-that-killed-infant-wounded-toddler-brother-2"
+    },
+    {
+      "n": 48,
+      "name": "Mathew Rodriguez, Amuri Greene",
+      "date": "2026-04-01",
+      "borough": "Brooklyn",
+      "summary": "Mathew Rodriguez, 18, was arraigned on murder and assault charges for allegedly driving a moped while his co-defendant fired a handgun into a crowd in East Williamsburg, killing a seven-month-old infant in a stroller and wounding her two-year-old brother. The shooting occurred near Humboldt Street and Moore Street on April 1, 2026.",
+      "source_url": "https://www.brooklynda.org/2026/04/14/brooklyn-man-arraigned-on-murder-and-other-charges-for-shooting-that-killed-infant-wounded-toddler-brother/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=brooklyn-man-arraigned-on-murder-and-other-charges-for-shooting-that-killed-infant-wounded-toddler-brother"
+    },
+    {
+      "n": 49,
+      "name": "Up the Hill defendants (seven gang members)",
+      "date": "2026-04-02",
+      "borough": "Manhattan",
+      "summary": "Seven alleged Lower East Side Up the Hill crew members indicted on 33 counts including second-degree attempted murder, second-degree assault and criminal possession of a weapon for a coordinated campaign of seven shootings in the Baruch and Wald NYCHA complexes between June 2024 and December 2025 targeting rivals in the Down the Hill crew, wounding one bystander.",
+      "source_url": "https://manhattanda.org/d-a-bragg-commiss-tisch-up-the-hill-defendants-indicted-for-murder-and-firearm-conspiracies-including-seven-shootings/"
+    },
+    {
+      "n": 50,
+      "name": "Alexander Williams and Wydeem Rudd",
+      "date": "2026-04-13",
+      "borough": "Brooklyn",
+      "summary": "Two affiliates of the violent 900 street gang each sentenced to 45 years to life in prison for the murder of one man and the shooting of two innocent bystanders during a Brooklyn shooting.",
+      "source_url": "https://brooklynda.org/2026/04/13/two-men-sentenced-to-45-years-to-life-in-prison/"
+    },
+    {
+      "n": 51,
+      "name": "Shaniqua Fort",
+      "date": "2026-04-13",
+      "borough": "Queens",
+      "summary": "Shaniqua Fort was charged with arson and assault for setting fires at multiple Maspeth storefronts that injured two people, including a resident who sustained lacerations and broken heels jumping from a window to escape a fire at a Chinese restaurant. She also threw a brick through an insurance office window and set fires at a funeral home and Jewish center.",
+      "source_url": "https://queensda.org/woman-charged-with-arson-and-assault-for-setting-fire-at-three-locations-in-maspeth-throwing-a-brick-through-a-storefront-window-and-injuring-two/"
+    },
+    {
+      "n": 52,
+      "name": "Mathew Rodriguez",
+      "date": "2026-04-14",
+      "borough": "Brooklyn",
+      "summary": "Arraigned on second-degree murder, second-degree attempted murder and second-degree assault charges in connection with a Brooklyn shooting that killed a seven-month-old baby girl and wounded her two-year-old brother.",
+      "source_url": "https://brooklynda.org/2026/04/14/brooklyn-man-arraigned-on-murder-and-other-charges-for-shooting-that-killed-infant-wounded-toddler-brother/"
+    },
+    {
+      "n": 53,
+      "name": "36 alleged members of WOOO and CHOO gangs (Jaden Grant, Bryan Ramos, Deshawn Nimmons, Jeffrey Thomas, Marvellous Ehigiator, Nasir Wade, Tristan McFarlane and others)",
+      "date": "2026-04-15",
+      "borough": "Brooklyn",
+      "summary": "Thirty-six alleged members of two rival Brownsville-based gangs, WOOO and CHOO, were indicted on charges including murder, attempted murder, and conspiracy in connection with 36 shootings that killed one and wounded 10 others, including an innocent bystander struck while putting out trash. The indictment also charges two CHOO members with gang assault for stomping a perceived rival in the vicinity of Downtown Brooklyn Courts.",
+      "source_url": "https://www.brooklynda.org/2026/04/15/thirty-six-alleged-members-of-two-rival-brownsville-based-gangs-charged-in-two-indictments/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=thirty-six-alleged-members-of-two-rival-brownsville-based-gangs-charged-in-two-indictments"
+    },
+    {
+      "n": 54,
+      "name": "Thirty-six alleged Wooo and Choo gang members",
+      "date": "2026-04-15",
+      "borough": "Brooklyn",
+      "summary": "Thirty-six alleged members of two rival Brownsville-based gangs, the Wooo and the Choo, charged in two indictments with second-degree murder, attempted murder, assault and conspiracy for a years-long shooting war across Brownsville housing complexes.",
+      "source_url": "https://www.brooklynda.org/2026/04/15/thirty-six-alleged-members-of-two-rival-brownsville-based-gangs-charged-in-two-indictments/"
+    },
+    {
+      "n": 55,
+      "name": "Andres Portilla",
+      "date": "2026-04-16",
+      "borough": "Queens",
+      "summary": "Andres Portilla, 31, of Jackson Heights was sentenced to 40 years in prison for kidnapping and raping three young women, including two minors. Portilla held one teenage victim captive for two months in his car, subjecting her to repeated physical and sexual assault that caused permanent injuries, including a shattered orbital bone. He lured and assaulted two other victims in January 2023 before being apprehended by NYPD.",
+      "source_url": "https://queensda.org/jackson-heights-man-sentenced-to-40-years-in-prison-for-the-kidnapping-and-rape-of-multiple-victims/"
+    },
+    {
+      "n": 56,
+      "name": "Angel Farias",
+      "date": "2026-04-16",
+      "borough": "Queens",
+      "summary": "Angel Farias, 71, was charged with sexual abuse in the first degree, forcible touching, and endangering the welfare of a child after he allegedly touched a 6-year-old girl on her genitals twice in a Marshalls department store in Jamaica on April 16, including once in the toy aisle.",
+      "source_url": "https://queensda.org/queens-man-charged-with-sexually-abusing-6-year-old-in-jamaica-department-store/"
+    },
+    {
+      "n": 57,
+      "name": "Zahir Davis",
+      "date": "2026-04-16",
+      "borough": "Queens",
+      "summary": "Zahir Davis, 18, was charged with murder in the second degree, gang assault in the first degree, and criminal possession of a weapon for shooting 15-year-old Jaden Pierre in the chest during a group attack at Roy Wilkins Park in St. Albans on April 16. Davis allegedly pulled a silver handgun and fired without provocation as the victim was being beaten by other teens, then fled to Jamaica before surrendering to police.",
+      "source_url": "https://queensda.org/teenager-charged-with-murder-for-shooting-death-of-15-year-old-jaden-pierre-in-roy-wilkins-park/"
+    },
+    {
+      "n": 58,
+      "name": "Eliud Garcia",
+      "date": "2026-04-23",
+      "borough": "Manhattan",
+      "summary": "Eliud Garcia, 50, was indicted for allegedly murdering his estranged wife, Basilisa Negron, 47, by shooting her six times at close range in her Harlem apartment on December 23, 2025. The indictment follows allegations that Garcia had assaulted and stalked Negron for months after she ended their relationship.",
+      "source_url": "https://manhattanda.org/d-a-bragg-man-indicted-for-murdering-his-wife-in-harlem/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=d-a-bragg-man-indicted-for-murdering-his-wife-in-harlem"
+    },
+    {
+      "n": 59,
+      "name": "Kevin Gavin",
+      "date": "2026-04-24",
+      "borough": "Brooklyn",
+      "summary": "Kevin Gavin, 71, pleaded guilty to three murders of elderly women in his NYCHA building in Brownsville. The defendant fatally stabbed one victim in 2015, stomped another to death in 2019, and strangled a third victim with a phone cord in 2021. He was sentenced to 30 years to life in prison.",
+      "source_url": "https://www.brooklynda.org/2026/04/24/brooklyn-man-who-preyed-on-elderly-neighbors-as-serial-killer-pleads-guilty-to-three-murders/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=brooklyn-man-who-preyed-on-elderly-neighbors-as-serial-killer-pleads-guilty-to-three-murders"
+    }
+  ],
+  "last_scan_date": "2026-04-27"
+}
