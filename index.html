@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)file:///C:/Users/paulr/Downloads/index_48.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NYC Assault Tracker — Live dashboard of felony and misdemeanor assault complaints</title>
 <meta name="description" content="A continuously updating dashboard of New York City felony and misdemeanor assault complaints, drawn from official NYPD data. Fully transparent methodology, current trendlines, and long-range baseline comparisons.">
-<link rel="stylesheet" href="./index_files/qqk2vto.css">
-<script src="./index_files/chart.umd.min.js.download"></script>
-<script src="./index_files/chartjs-adapter-date-fns.bundle.min.js.download"></script>
-<link rel="stylesheet" href="./index_files/leaflet.css">
-<script src="./index_files/leaflet.js.download"></script>
+<link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 :root {
   --vc-black: #050507;
@@ -1167,17 +1167,17 @@ table.data th.num { text-align: right; }
 <!-- Fixed full-width section nav, lives outside .wrap so it spans the viewport -->
 <nav class="section-nav" id="sectionNav" aria-label="Page sections">
   <div class="section-nav-inner">
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-trends">Trends</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-baseline">Baselines</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-where">Boroughs</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-when">When</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-venue">Where</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-map">Map</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-subway">Subway</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-annual">Annual</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-explorer">Explorer</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-cases">Cases</a>
-    <a href="file:///C:/Users/paulr/Downloads/index_48.html#section-method">Methodology</a>
+    <a href="#section-trends">Trends</a>
+    <a href="#section-baseline">Baselines</a>
+    <a href="#section-where">Boroughs</a>
+    <a href="#section-when">When</a>
+    <a href="#section-venue">Where</a>
+    <a href="#section-map">Map</a>
+    <a href="#section-subway">Subway</a>
+    <a href="#section-annual">Annual</a>
+    <a href="#section-explorer">Explorer</a>
+    <a href="#section-cases">Cases</a>
+    <a href="#section-method">Methodology</a>
   </div>
 </nav>
 
@@ -1246,7 +1246,7 @@ table.data th.num { text-align: right; }
 
     <div class="baseline-slider-wrap">
       <label for="baselineSlider" id="baselineSliderLabel">Comparison year: 1993</label>
-      <input type="range" id="baselineSlider" min="1993" max="2024" step="1" value="1993">
+      <input type="range" id="baselineSlider" min="1993" max="2024" step="1" value="1993" />
       <div class="baseline-slider-scale">
         <span>1993</span>
         <span>2000</span>
@@ -1297,7 +1297,7 @@ table.data th.num { text-align: right; }
   <!-- When: hour-of-day x day-of-week heatmap -->
   <div class="section-h" id="section-when">
     <h2>When assaults happen</h2>
-    <span class="tag" id="whenTag">Hour of day · day of week</span>
+    <span class="tag" id="whenTag">Hour of day &middot; day of week</span>
   </div>
   <div class="chart-card">
     <h3 id="whenTitle">Hourly pattern of assault complaints</h3>
@@ -1309,13 +1309,13 @@ table.data th.num { text-align: right; }
     </div>
     <div id="whenHeatmap" class="when-heatmap" aria-label="Hour by day-of-week heatmap"></div>
     <p class="when-legend"><span id="whenLegendLow">low</span><span class="when-legend-bar" id="whenLegendBar"></span><span id="whenLegendHigh">high</span></p>
-    <p class="source-line"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener">NYPD Complaint Data — Historic</a> and <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243" target="_blank" rel="noopener">Current (YTD)</a>, hour extracted from <code>cmplnt_fr_tm</code>, day of week from <code>cmplnt_fr_dt</code>. The year shown auto-updates to the most recent year with at least 30,000 records (Open Data publishes location-tagged 2026 records on a quarterly lag).</p>
+    <p class="source-line"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener">NYPD Complaint Data &mdash; Historic</a> and <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243" target="_blank" rel="noopener">Current (YTD)</a>, hour extracted from <code>cmplnt_fr_tm</code>, day of week from <code>cmplnt_fr_dt</code>. The year shown auto-updates to the most recent year with at least 30,000 records (Open Data publishes location-tagged 2026 records on a quarterly lag).</p>
   </div>
 
   <!-- Where: venue type / indoor-outdoor -->
   <div class="section-h" id="section-venue">
     <h2>Where assaults happen</h2>
-    <span class="tag">Venue type · indoor vs. outdoor</span>
+    <span class="tag">Venue type &middot; indoor vs. outdoor</span>
   </div>
   <div class="chart-card">
     <h3 id="venueTitle">Top venues for assault complaints</h3>
@@ -1341,11 +1341,11 @@ table.data th.num { text-align: right; }
   <!-- Precinct map -->
   <div class="section-h" id="section-map">
     <h2>Where in the city</h2>
-    <span class="tag" id="mapSectionTag">By NYPD precinct · 2026 YTD vs. 2025 YTD</span>
+    <span class="tag" id="mapSectionTag">By NYPD precinct &middot; 2026 YTD vs. 2025 YTD</span>
   </div>
 
   <div class="chart-card">
-    <h3 id="mapTitle">Rate per 100,000 residents, by precinct — 2026 YTD</h3>
+    <h3 id="mapTitle">Rate per 100,000 residents, by precinct &mdash; 2026 YTD</h3>
     <p class="chart-dek" id="mapDek">2026 year-to-date assault complaints divided by 2020 Census precinct population, compared with the same period in 2025. Toggle to see raw volume, percent change vs. the same period last year, or absolute change vs. the same period last year. <strong>Current-year numbers come from NYPD CompStat weekly reports</strong> (refreshed each Tuesday); historical years below come from NYC Open Data complaint-level records.</p>
 
     <div id="mapPendingBanner" style="display:none; margin:14px 0 18px; padding:14px 18px; border-left:4px solid var(--vc-magenta); background:var(--vc-magenta-20); font-size:13px; line-height:1.55;">
@@ -1374,13 +1374,13 @@ table.data th.num { text-align: right; }
     <div class="map-legend" id="mapLegend"></div>
 
     <p class="map-footnote">
-      <strong>† About the rate-per-100k metric:</strong> Rate is calculated against <em>resident</em> population from the 2020 Census. Five Manhattan precincts (marked † in the list below) have unusually low residential counts relative to the number of workers, commuters, shoppers, and tourists who pass through them on any given day — <strong>Midtown South (14th Pct.)</strong> has just 28,050 residents but handles Penn Station, Herald Square, and Times Square foot-traffic. Rates in those precincts will always look elevated, because the denominator under-counts the population actually exposed to crime there. Read the rate alongside the raw count and the change vs. the same period last year, not alone.
+      <strong>&dagger; About the rate-per-100k metric:</strong> Rate is calculated against <em>resident</em> population from the 2020 Census. Five Manhattan precincts (marked &dagger; in the list below) have unusually low residential counts relative to the number of workers, commuters, shoppers, and tourists who pass through them on any given day &mdash; <strong>Midtown South (14th Pct.)</strong> has just 28,050 residents but handles Penn Station, Herald Square, and Times Square foot-traffic. Rates in those precincts will always look elevated, because the denominator under-counts the population actually exposed to crime there. Read the rate alongside the raw count and the change vs. the same period last year, not alone.
     </p>
 
     <h3 style="margin-top: 28px; font-size: 16px;" id="topListTitle">Top 10 precincts by rate per 100k</h3>
     <div class="top-list" id="topList"></div>
 
-    <p class="source-line" style="margin-top: 18px;"><strong>Sources.</strong> Current-year per-precinct YTD (and same-period prior-year YTD) is pulled live from <a href="https://www.nyc.gov/site/nypd/stats/crime-statistics/compstat.page" target="_blank" rel="noopener">NYPD CompStat weekly reports</a>, via the <a href="https://github.com/joshgreenman1973/nypd-compstat-scraper" target="_blank" rel="noopener">nypd-compstat-scraper</a> open-source feed. Historical full-year totals in the long-run charts above come from <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener">NYPD Complaint Data Historic</a> (1993–2024) and <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243" target="_blank" rel="noopener">Current YTD</a> (2025). We use CompStat for the current-year map because the complaint-level Open Data feed typically lags by several weeks; CompStat aggregates are published every Tuesday for the prior week. Boundaries: <a href="https://data.cityofnewyork.us/Public-Safety/Police-Precincts/y76i-bdw7" target="_blank" rel="noopener">NYC Open Data Police Precincts</a>. Rates use a 2020 Census block-to-precinct population crosswalk compiled by <a href="https://github.com/jkeefe/census-by-precincts" target="_blank" rel="noopener">John Keefe (MIT-licensed)</a>. Precinct 22 (Central Park) is excluded from rate calculations because it has a resident population of 129 — the rate would be misleadingly high. Population-based rates use the most recent decennial count (2020) and are not adjusted for precinct-level population change since then.</p>
+    <p class="source-line" style="margin-top: 18px;"><strong>Sources.</strong> Current-year per-precinct YTD (and same-period prior-year YTD) is pulled live from <a href="https://www.nyc.gov/site/nypd/stats/crime-statistics/compstat.page" target="_blank" rel="noopener">NYPD CompStat weekly reports</a>, via the <a href="https://github.com/joshgreenman1973/nypd-compstat-scraper" target="_blank" rel="noopener">nypd-compstat-scraper</a> open-source feed. Historical full-year totals in the long-run charts above come from <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener">NYPD Complaint Data Historic</a> (1993&ndash;2024) and <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243" target="_blank" rel="noopener">Current YTD</a> (2025). We use CompStat for the current-year map because the complaint-level Open Data feed typically lags by several weeks; CompStat aggregates are published every Tuesday for the prior week. Boundaries: <a href="https://data.cityofnewyork.us/Public-Safety/Police-Precincts/y76i-bdw7" target="_blank" rel="noopener">NYC Open Data Police Precincts</a>. Rates use a 2020 Census block-to-precinct population crosswalk compiled by <a href="https://github.com/jkeefe/census-by-precincts" target="_blank" rel="noopener">John Keefe (MIT-licensed)</a>. Precinct 22 (Central Park) is excluded from rate calculations because it has a resident population of 129 &mdash; the rate would be misleadingly high. Population-based rates use the most recent decennial count (2020) and are not adjusted for precinct-level population change since then.</p>
   </div>
 
   <!-- Subway assault context box -->
@@ -1390,22 +1390,22 @@ table.data th.num { text-align: right; }
   </div>
   <div class="chart-card">
     <h3>Subway felony assault is a small share of the citywide total</h3>
-    <p class="chart-dek">Subway crime gets disproportionate news coverage relative to its share of citywide crime. This section zooms in on felony assault specifically — complaints filed inside the NYC Transit police jurisdiction (the subway system, excluding LIRR, Metro-North, PATH, and NYC Ferry). Because NYC Open Data's complaint-level feed is what lets us filter on offense <em>and</em> location simultaneously, these figures are for the most recent complete calendar year, not year-to-date.</p>
+    <p class="chart-dek">Subway crime gets disproportionate news coverage relative to its share of citywide crime. This section zooms in on felony assault specifically &mdash; complaints filed inside the NYC Transit police jurisdiction (the subway system, excluding LIRR, Metro-North, PATH, and NYC Ferry). Because NYC Open Data's complaint-level feed is what lets us filter on offense <em>and</em> location simultaneously, these figures are for the most recent complete calendar year, not year-to-date.</p>
 
     <div class="kpi-grid" style="margin:12px 0 20px;">
       <div class="kpi">
         <div class="label" id="subwayKpi1Label">Subway felony assaults</div>
-        <div class="value" id="subwayKpi1Value">—</div>
-        <div class="sub" id="subwayKpi1Sub">—</div>
+        <div class="value" id="subwayKpi1Value">&mdash;</div>
+        <div class="sub" id="subwayKpi1Sub">&mdash;</div>
       </div>
       <div class="kpi">
         <div class="label" id="subwayKpi2Label">Share of citywide felony assaults</div>
-        <div class="value" id="subwayKpi2Value">—</div>
-        <div class="sub" id="subwayKpi2Sub">—</div>
+        <div class="value" id="subwayKpi2Value">&mdash;</div>
+        <div class="sub" id="subwayKpi2Sub">&mdash;</div>
       </div>
       <div class="kpi">
         <div class="label">Per day, on average</div>
-        <div class="value" id="subwayKpi3Value">—</div>
+        <div class="value" id="subwayKpi3Value">&mdash;</div>
         <div class="sub" id="subwayKpi3Sub">Across ~472 subway stations</div>
       </div>
     </div>
@@ -1413,7 +1413,7 @@ table.data th.num { text-align: right; }
     <h3 style="margin-top: 28px; font-size: 16px;">Subway felony assault, monthly</h3>
     <p class="chart-dek" style="margin-top: 4px;">Monthly felony assault complaints in the subway system only.</p>
     <div class="chart-holder h-md"><canvas id="subwayChart"></canvas></div>
-    <p class="source-line"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener">NYPD Complaint Data — Historic</a> and <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243" target="_blank" rel="noopener">Current (YTD)</a>, filtered to felony assault complaints where <code>transit_district IS NOT NULL</code>. Current-year (2026) figures aren't yet available for this subset because the complaint-level feed lags for location-tagged incidents — hence the "most recent complete year" framing above.</p>
+    <p class="source-line"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i" target="_blank" rel="noopener">NYPD Complaint Data &mdash; Historic</a> and <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243" target="_blank" rel="noopener">Current (YTD)</a>, filtered to felony assault complaints where <code>transit_district IS NOT NULL</code>. Current-year (2026) figures aren't yet available for this subset because the complaint-level feed lags for location-tagged incidents &mdash; hence the "most recent complete year" framing above.</p>
   </div>
 
   <!-- Annual totals table -->
@@ -1441,11 +1441,11 @@ table.data th.num { text-align: right; }
   </p>
 
   <div id="explorerApp" style="border:1px solid var(--vc-cloud);">
-      <div class="error" style="margin:0;">
-        <strong>Historical explorer unavailable.</strong>
-        Place <code>assault_data.json</code> in the same folder as this file and reload.
-        Generate it with: <code>source("fetch_assault_data.R")</code>
-      </div></div>
+    <!-- Populated by JS below -->
+    <div class="loading" style="padding:40px 0;">
+      <span class="spinner"></span>Loading explorer data…
+    </div>
+  </div>
 
   <!-- 2026 case log -->
   <div class="section-h" id="section-cases">
@@ -1495,7 +1495,7 @@ table.data th.num { text-align: right; }
             </select>
           </label>
           <label>Search
-            <input type="search" id="caseFilterText" placeholder="Name, street, keyword…">
+            <input type="search" id="caseFilterText" placeholder="Name, street, keyword…" />
           </label>
           <span class="case-filter-count" id="caseFilterCount"></span>
         </div>
@@ -4495,6 +4495,5 @@ async function bootExplorer() {
 bootExplorer().catch(e => console.warn('Explorer boot failed:', e));
 
 </script>
-
-
-</body></html>
+</body>
+</html>
