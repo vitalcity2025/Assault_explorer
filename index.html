@@ -1831,7 +1831,7 @@ async function loadAnnual() {
   const hist = await soql(ENDPOINTS.historic,
     `SELECT date_extract_y(cmplnt_fr_dt) AS y, law_cat_cd, count(*) AS n
      WHERE (ofns_desc='FELONY ASSAULT' OR ofns_desc='ASSAULT 3 & RELATED OFFENSES')
-       AND date_extract_y(cmplnt_fr_dt) >= 2006 AND date_extract_y(cmplnt_fr_dt) <= 2024
+       AND date_extract_y(cmplnt_fr_dt) >= 2006 AND date_extract_y(cmplnt_fr_dt) <= 2025
      GROUP BY y, law_cat_cd ORDER BY y`);
   const ytd = await soql(ENDPOINTS.ytd,
     `SELECT date_extract_y(cmplnt_fr_dt) AS y, law_cat_cd, count(*) AS n
@@ -2274,8 +2274,11 @@ function renderBaseline(annual, latestYear) {
 
 function drawBaseline(baselineYear) {
   const { latestYear } = _baselineCtx;
-  const felLatest = getFelony(latestYear);
-  const misLatest = getMisdem(latestYear);
+  // Use the last COMPLETE year (latestYear - 1) for comparison, not the
+  // current partial year which only has YTD data and would skew percentages.
+  const compareYear = latestYear - 1;
+  const felLatest = getFelony(compareYear);
+  const misLatest = getMisdem(compareYear);
   const felBase = getFelony(baselineYear);
   const misBase = getMisdem(baselineYear);
 
@@ -2283,7 +2286,7 @@ function drawBaseline(baselineYear) {
   const misPct = misBase ? pct(misLatest, misBase) : null;
 
   document.getElementById('baselineSliderLabel').textContent = `Comparison year: ${baselineYear}`;
-  document.getElementById('baselineTitle').textContent = `Citywide assault: ${latestYear} vs. ${baselineYear}`;
+  document.getElementById('baselineTitle').textContent = `Citywide assault: ${compareYear} vs. ${baselineYear}`;
 
   const phrase = v => {
     if (v == null) return null;
