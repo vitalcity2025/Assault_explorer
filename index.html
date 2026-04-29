@@ -4493,6 +4493,7 @@ async function bootExplorer() {
 }
 // Boot explorer in parallel with the live tracker (non-blocking)
 bootExplorer().catch(e => console.warn('Explorer boot failed:', e));
+main();
 
 </script>
 </body>
