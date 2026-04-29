@@ -2382,21 +2382,32 @@ function drawBaseline(baselineYear) {
 }
 
 function renderAnnualFelony(annual, latestYear) {
-  // Combine HISTORIC_FELONY (1993-2005) with API (2006-latestYear)
+  // Stop at the last COMPLETE year — current partial year is excluded
+  // because showing a partial-year bar at the same scale as full years
+  // makes the trend look like a dramatic drop that isn't real.
+  const lastCompleteYear = latestYear - 1;
+
+  // Combine HISTORIC_FELONY (1993-2005) with API (2006-lastCompleteYear)
   const years = [];
   const vals = [];
   for (let y = 1993; y <= 2005; y++) {
     years.push(y);
     vals.push(HISTORIC_FELONY[y] || null);
   }
-  for (let y = 2006; y <= latestYear; y++) {
+  for (let y = 2006; y <= lastCompleteYear; y++) {
     years.push(y);
     vals.push(annual.felony[y] || null);
   }
 
+  // Update chart title and dek to reflect the cutoff
+  const titleEl = document.querySelector('#annualFelonyChart')?.closest('.chart-card')?.querySelector('h3');
+  const dekEl = document.querySelector('#annualFelonyChart')?.closest('.chart-card')?.querySelector('.chart-dek');
+  if (titleEl) titleEl.textContent = `Felony assault, annual complaints, 1993–${lastCompleteYear}`;
+  if (dekEl) dekEl.innerHTML = `Annual felony assault complaints citywide, combining NYPD historical tables (1993–2005) with complaint-level open data (2006–${lastCompleteYear}). <strong>${latestYear} is excluded</strong> — only partial-year data is currently available and would appear misleadingly low at full-year scale.`;
+
   // Highlight baseline years
-  const pointBg = years.map(y => [1993, 2000, 2010, 2019, latestYear].includes(y) ? COLORS.magenta : COLORS.orange);
-  const pointRadius = years.map(y => [1993, 2000, 2010, 2019, latestYear].includes(y) ? 5 : 0);
+  const pointBg = years.map(y => [1993, 2000, 2010, 2019, lastCompleteYear].includes(y) ? COLORS.magenta : COLORS.orange);
+  const pointRadius = years.map(y => [1993, 2000, 2010, 2019, lastCompleteYear].includes(y) ? 5 : 0);
 
   new Chart(document.getElementById('annualFelonyChart'), {
     type: 'line',
